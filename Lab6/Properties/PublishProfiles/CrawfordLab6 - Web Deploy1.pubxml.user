@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqQu7+pEgtU2vTUsebW4lQgAAAAACAAAAAAAQZgAAAAEAACAAAADOwT+1o+Oojc7p9y8o22x5nHUB/CcNy8H5OQx85GeEagAAAAAOgAAAAAIAACAAAACSlvusoSLHHq3SgFgU6Jw1h9uT5iLL4DS0bK0TZcM1vYAAAAD+d9uvcw5dMkF5cmAUEBNt5gWkK4E9RYJ8yp1zZ/xd+HJyRqEj2PnTD+ZR+cGFqF+hA/mW19mgXQ8nii97AjYAzrltwE25h1iBWPjue7AnCdhHfZJRFd7eDzEvTcEguO5kxYGzHCnbOTdQjOCTIjNTLyOAy/uGlU9+3f5r/NnbX0AAAACCdiALNT850TG5RVWzyJB9Y6DlcU9CZ6DQZZy0punLWbJu6KIE9XYRplQxCtpIQ7N77ZRtgSKE0FWx7x5wGyft</EncryptedPassword>
+    <History>True|2021-03-26T20:44:29.5436322Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:crawfordowenserver.database.windows.net,1433%3bInitial Catalog=CrawfordLab6%3bPersist Security Info=False%3bUser ID=owenadmin%3bPassword=june32001!%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Lab6.Data.StudentDbContext">
+      <Value>Server=tcp:crawfordowenserver.database.windows.net,1433%3bInitial Catalog=CrawfordLab6%3bPersist Security Info=False%3bUser ID=owenadmin%3bPassword=june32001!%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
